@@ -6,7 +6,7 @@ import googleapiclient.discovery
 from googleapiclient.errors import HttpError
 api_service_name = "youtube"
 api_version = "v3"
-api_key = "AIzaSyCTxR-Zm8ylX1e-xMGu91bxGIOnLqM8ZkA"
+api_key = "YOUR API KEY"
 youtube = googleapiclient.discovery.build(api_service_name, api_version,developerKey=api_key)
 #creating connection to sql
 def connect_db():
